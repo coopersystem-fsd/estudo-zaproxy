@@ -43,7 +43,24 @@ O uso da ferramenta é simples, porém a análise dos resultados encontrados, be
 
 ## Quais parâmetros são levados em consideração para mensurar a vulnerabilidade do sistema
 
-É verificado se o sistema está vulnerável a uma classe conhecida ou defeito específico; ou, no caso de vulnerabilidades que foram relatadas como corrigidas, verifique se o sistema não está mais vulnerável a esse defeito.
+Os testes de segurança geralmente são divididos de maneira arbitrária, de acordo com o tipo de vulnerabilidade sendo testada ou o tipo de teste sendo realizado. Os tipos de testes que podem ser realizados são:
+
+**Avaliação de vulnerabilidade** - O sistema é verificado e analisado quanto a problemas de segurança.
+
+**Teste de penetração** - O sistema passa por análise e ataque de invasores mal-intencionados simulados.
+
+**Teste de tempo de execução** - O sistema passa por análise e teste de segurança de um usuário final.
+
+**Revisão de código** - O código do sistema passa por uma revisão e análise detalhadas procurando especificamente por vulnerabilidades de segurança.
+
+A medida que o ZAP monitora seu aplicativo da Web, ele cria um mapa das páginas dos aplicativos da Web e os recursos usados ​​para renderizar essas páginas. Em seguida, ele registra as solicitações e respostas enviadas a cada página e cria alertas se houver algo potencialmente errado com uma solicitação ou resposta.
+
+O ZAP realiza a contagem dos alertas encontrados durante o teste, divididos em categorias de risco. Essas categorias de risco são:
+
+![Alertas](images/alert-icons.png)
+
+A partir dos alertas gerados é possível mensurar a quantidade de falhas que um sistema possui.
+
 
 ## Glossário
 
