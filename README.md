@@ -63,7 +63,6 @@ O ZAP realiza a contagem dos alertas encontrados durante o teste, divididos em c
 
 A partir dos alertas gerados é possível mensurar a quantidade de falhas que um sistema possui.
 
-
 ## Glossário
 
 **Spider:** A Spider ZAP descobre links examinando o HTML nas respostas do aplicativo da web. Fonte: Site oficial Zap Proxy
