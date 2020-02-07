@@ -20,10 +20,32 @@ O ZAP varrerá passivamente todas as solicitações e respostas enviadas por pro
 
 A verificação ativa, no entanto, tenta encontrar outras vulnerabilidades usando ataques conhecidos contra os destinos selecionados.
 
+Alguns ataques utilizados são:
+
+- Path Traversal
+- Remote File Inclusion
+- URL Redirector Abuse
+- Server side include
+- Cross Site Scripting
+- SQL Injection
+- Directory browsing
+- Session ID in URL rewrite
+- Secure page browser cache
+- External redirect
+- CRLF injection
+- Parameter tampering
+- Fuzzer
+- Brute force
+
 ## Quão complexo é o seu uso
+
+O uso da ferramenta é simples, porém a análise dos resultados encontrados, bem como as atitudes que devem ser tomadas para corrigir possíveis problemas, requerem um conhecimento avançado sobre segurança da informação e programação defensiva.
 
 ## Quais parâmetros são levados em consideração para mensurar a vulnerabilidade do sistema
 
+É verificado se o sistema está vulnerável a uma classe conhecida ou defeito específico; ou, no caso de vulnerabilidades que foram relatadas como corrigidas, verifique se o sistema não está mais vulnerável a esse defeito.
+
 ## Glossário
 
-**Spider:** A Spider ZAP descobre links examinando o HTML nas respostas do aplicativo da web.
+**Spider:** A Spider ZAP descobre links examinando o HTML nas respostas do aplicativo da web. Fonte: Site oficial Zap Proxy
+**Programação defensiva:** É um conjunto de técnicas de projeto (do inglês design) e programação objetivando a estabilidade e a segurança de um software independentemente de seu imprevisível. A ideia pode ser vista como forma de reduzir ou eliminar a hipótese de as Leis de Murphy terem efeito. Técnicas de programação defensiva começaram a ser desenvolvidas quando sistemas de software começaram a possibilitar efeitos catastróficos, seja deliberadamente ou inadvertidamente. Fonte: Wikipédia
