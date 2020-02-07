@@ -39,7 +39,7 @@ Alguns ataques utilizados são:
 
 ## Quão complexo é o seu uso
 
-O uso da ferramenta é simples, porém a análise dos resultados encontrados, bem como as atitudes que devem ser tomadas para corrigir possíveis problemas, requerem um conhecimento avançado sobre segurança da informação e programação defensiva.
+O uso manual da ferramenta é de complexidade mediana, já o seu uso automatizado requer um conhecimento mais avançado. A análise dos resultados encontrados, bem como as atitudes que devem ser tomadas para corrigir possíveis problemas, requer um conhecimento elevado sobre segurança da informação e programação defensiva.
 
 ## Quais parâmetros são levados em consideração para mensurar a vulnerabilidade do sistema
 
